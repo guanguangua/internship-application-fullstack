@@ -1,6 +1,13 @@
-name = "{{project-name}}"
+name = "awesome-intern"
 type = "javascript"
-account_id = ""
+account_id = "a8e483b574e71782a8290b9c5e008fcd"
 workers_dev = true
 route = ""
 zone_id = ""
+
+
+[env.production]
+# The ID of your domain you're deploying to
+zone_id = "c33b7c966e3f1d3f840052988e09969f"
+# The route pattern your Workers application will be served at
+route = "derekren.com"
